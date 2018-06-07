@@ -40,4 +40,4 @@ def draw_tree(l, level):
     level -=1
     
 t.speed(100)
-draw_tree(l,3)
+draw_tree(l,2)
