@@ -7,9 +7,9 @@ t.shape('turtle')
 #parameters
 
 i = 10   #maximum number of branches
-l = 120 #lenght of tree
+l = 100 #lenght of tree
 s = 30  #angle (direction of the trunk)
-w = 6   #width of the branches
+w = 4   #width of the branches 'missing in function'
 
 #setting the turtle up
 t.lt(90)
@@ -18,9 +18,9 @@ t.lt(90)
 t.penup()
 t.bk(l)
 t.pendown()
-t.width(6)
-t.fd(l)
 t.width(4)
+t.fd(l)
+t.width(2)
 
 #main function
 def draw_tree(l, level):
