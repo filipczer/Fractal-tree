@@ -1,0 +1,22 @@
+import turtle
+import math
+
+t = turtle.Turtle()
+rad = 100
+ite = 2
+i = 10
+
+def draw_circle(rad, ite):
+    
+    rad = 0.9 * rad
+    t.circle(rad)
+    t.lt(90)
+    t.penup()
+    t.fd(0.1 * rad)
+    t.rt(90)
+    t.pendown()
+    ite += 1
+    if ite<=i:
+        draw_circle(rad, ite)
+
+draw_circle(rad, ite)
