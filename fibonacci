@@ -1,0 +1,15 @@
+st = int(input("Enter the start number"))
+end = int(input("Enter the end number"))
+
+def fib(x):
+    if x < 2:
+        return 1
+    elif x == 0:
+        return 0
+    return fib(x-1) + fib(x-2)
+
+
+print("The results are: ")
+for x in range(st,end):
+    print(fib(x))
+print("Finish")
