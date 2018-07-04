@@ -12,9 +12,11 @@ s = 30  #angle (direction of the branch)
 w = 4   #width of the branches
 
 #setting the turtle up
+
 t.lt(90)
 
 #first branch
+
 t.penup()
 t.bk(l)
 t.pendown()
@@ -23,6 +25,7 @@ t.fd(l)
 t.width(5)
 
 #main function
+
 def draw_tree(l, ite, w):
     l = 0.8*l
     w = 0.9*w
